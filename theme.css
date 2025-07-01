@@ -29,10 +29,12 @@
 	margin-bottom: 5px;
 	border-radius: 15px;
 }
-
+.blockGroup {
+    display: flex;
+}
 .block{
 	width: 100px;
-	height: 100px;
+	height: 85px;
 	text-align: center;
 	display: inline-block;
 	line-height: 100px;
@@ -40,6 +42,9 @@
 	margin-right: 10px;
 	margin-left: 10px;
 	margin-bottom: 5px;
+	padding-top:15px;
+    	font-size: 14px;
+    	font-weight: 600;
 }
 .moduleName{
 	text-align: center;
