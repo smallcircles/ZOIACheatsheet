@@ -15,8 +15,9 @@ document.onkeydown = function(evt) {
         window.location.href = '#main';
     }
 }; 
-
+console.log('click code');
 var overlay = document.getElementsByClassName('overlay');
 overlay.onclick = function() {
+	console.log('click!');
         window.location.href = '#main';
 };
