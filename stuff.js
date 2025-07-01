@@ -17,6 +17,6 @@ document.onkeydown = function(evt) {
 }; 
 
 var overlay = document.getElementsByClassName('overlay');
-$(overlay).click(function(){
+overlay.onclick = function() {
         window.location.href = '#main';
-});
+};
