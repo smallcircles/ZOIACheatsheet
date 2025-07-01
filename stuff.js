@@ -14,4 +14,9 @@ document.onkeydown = function(evt) {
     if (evt.keyCode == 27) {
         window.location.href = '#main';
     }
-};
+}; 
+
+var overlay = document.getElementsByClassName('overlay');
+$(overlay).click(function(){
+        window.location.href = '#main';
+});
